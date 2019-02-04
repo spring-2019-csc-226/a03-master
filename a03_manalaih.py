@@ -6,6 +6,7 @@
 # Purpose: To use turtle library, learn about color representation in computer, source code and git.
 ######################################################################
 # Acknowledgements:
+
 #
 # A03 - Google Document link: https://docs.google.com/document/d/1B9F5a8D7kr8s4Z8O42pObc-YndtRh0frD6Mf7W5kJ2A/edit?usp=sharing
 # first modified by Hila Manalai
