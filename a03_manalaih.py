@@ -152,7 +152,7 @@ def draw_mountain(m, h):
 
 def main():
     """
-    Docstring for main
+    Call to other functions
     """
     # ...
     draw_mountain(mountain, 400)            # Function call to draw_mountain function
