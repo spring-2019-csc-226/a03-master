@@ -161,6 +161,6 @@ def main():
     draw_could(cloud_2)                     # Function call to draw_cloud to add a new cloud shape.
     draw_tree(tree, 40, 30)                 # Function call to draw_tree
     draw_tree(tree_2, 30, 30)               # Function call to draw_tree to add a new tree shape.
-main()
+    main()
 
-wn.exitonclick()
+    wn.exitonclick()
