@@ -3,7 +3,7 @@
 # Username:vankirkj
 #
 # Assignment:A03
-# Purpose:
+# https://docs.google.com/document/d/1upvTP9Z7BehzY-HqRqI9Uh2F3cD19rZi_MtArv0Tn_M/edit?usp=sharing
 #################################################################################
 # Acknowledgements: Azah and I made the stars
 #
@@ -13,7 +13,7 @@
 import turtle
 
 
-def makesquare():
+def makesquare():   #makes the square outline
     square = turtle.Turtle()
     square.penup()
     square.setpos(-241, 241)
@@ -121,7 +121,7 @@ def boustraphedon():
 
 
 def makeskyscraper():
-    skyscraper = turtle.Turtle()
+    skyscraper = turtle.Turtle()    #makes the skyscrapers base
     skyscraper.color(115,115,200)
     skyscraper.width(10)
     skyscraper.penup()
@@ -150,17 +150,20 @@ def door():
         door.forward(50)
         door.left(90)
     door.end_fill()
+    door.hideturtle()
 
 
 def main():
     """
-    Docstring for main
+    This actually runs the code.
     """
     # ...
     makesquare()            # Function call to function_1
     boustraphedon()            # Function call to function_2
     makeskyscraper()
     door()
+
+
 window = turtle.Screen()
 window.bgcolor("yellow")
 window.colormode(255)
