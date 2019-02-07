@@ -1,6 +1,6 @@
 # Author: Jalen Prater
 # Username: praterjal
-#
+# Google Doc: https://docs.google.com/document/d/1ZIEFRlNIQKXA2H3r_NANiNE1lOZInasV8zJ4QTQ9550/edit?usp=sharing
 # Assignment: a03: A Pair of Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose: to draw house
 ######################################################################
