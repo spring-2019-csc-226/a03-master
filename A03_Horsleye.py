@@ -1,0 +1,82 @@
+# Evan Horsley
+#Google Doc:https://docs.google.com/document/d/1L5tKQ6wLsKTByqUTOramCIUEaOtNldc8o_OROMH3gVQ/edit?usp=sharing
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("#ffb6c1")
+kurt = turtle.Turtle()
+def drawface():
+    #draws face
+    kurt.setposition(0, 0)
+    kurt.seth(90)
+    kurt.forward(50)
+    kurt.left(90)
+    kurt.forward(25)
+    kurt.pendown()
+    kurt.circle(10)
+    kurt.penup()
+    kurt.setposition(0, 0)
+    kurt.seth(90)
+    kurt.forward(50)
+    kurt.right(90)
+    kurt.forward(25)
+    kurt.pendown()
+    kurt.circle(10)
+    kurt.penup()
+    kurt.setposition(0, 0)
+    kurt.seth(90)
+    kurt.forward(20)
+    kurt.left(90)
+    kurt.forward(20)
+    kurt.seth(0)
+    kurt.left(5)
+    kurt.pendown()
+    kurt.forward(60)
+    kurt.hideturtle()
+
+
+def drawbody():
+    #drawsbody and legs
+    kurt.speed(0)
+    kurt.pendown()
+    kurt.circle(50)
+    kurt.seth(270)
+    kurt.forward(150)
+    pos = kurt.position()
+    kurt.right(45)
+    kurt.forward(75)
+    kurt.penup()
+    kurt.setposition(pos)
+    kurt.pendown()
+    kurt.left(90)
+    kurt.forward(75)
+    kurt.seth(270)
+    kurt.penup()
+
+def drawarms():
+    #draws arms
+    kurt.setposition(0, 0)
+    kurt.pendown()
+    kurt.forward(20)
+    pos1 = kurt.position()
+    kurt.right(20)
+    kurt.forward(60)
+    kurt.color("#00ff00")
+    kurt.stamp()
+    kurt.color("Black")
+    kurt.penup()
+    kurt.setposition(pos1)
+    kurt.left(120)
+    kurt.pendown()
+    kurt.forward(60)
+    kurt.color("#00ff00")
+    kurt.stamp()
+    kurt.penup()
+    kurt.pensize(4)
+
+def main():
+    drawbody()
+    drawarms()
+    drawface()
+
+main()
+wn.exitonclick()
