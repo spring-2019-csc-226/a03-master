@@ -25,7 +25,7 @@ zz.color("yellow")
 
 
 def make_the_front ():
-    """this function makes the front part of the house which is basically a square"""
+    """this function makes the front part of the house which is basically a rectangle"""
     lb.pu()
     lb.goto(-100, -100)
     lb.pd()
@@ -41,6 +41,7 @@ def make_the_front ():
 
 
 def make_the_right_side():
+    """This function makes the right side of the 3 dimensional house"""
     lb.pu()
     lb.goto(290, -100)
     lb.left(43)
@@ -54,8 +55,8 @@ def make_the_right_side():
     lb.fd(100)
 
 
-
 def make_roof():
+    """This function makes the roof of the house and paint it red"""
     lb.filling()
     lb.begin_fill()
     lb.fillcolor("red")
@@ -81,7 +82,10 @@ def make_roof():
     lb.rt(65)
     lb.fd(255)
     lb.end_fill()
-def door ():
+
+
+def door():
+    """"this function makes a door for the house"""
     lb.penup()
     lb.goto(60,-100)
     lb.pd()
@@ -112,6 +116,7 @@ def window ():
 
 
 def make_window():
+    """this function makes a window at the LHS"""
     lb.filling()
     lb.fillcolor('red')
     lb.begin_fill()
@@ -124,12 +129,8 @@ def make_window():
     lb.end_fill()
 
 
-
-
-
-
-
 def make_star ():
+    """This function makes a beautiful star at the front of the house and write that the house belongs to us all"""
     zz.speed(6)
     zz.pu()
     zz.goto(-200,-300)
@@ -150,6 +151,7 @@ def make_star ():
 
 
 def main():
+    """This function calls all the made function to build  the house"""
     make_the_front()
     make_the_right_side()
     make_roof()
