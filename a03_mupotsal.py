@@ -130,7 +130,7 @@ def make_window():
 
 
 def make_star ():
-
+    zz.speed(6)
     zz.pu()
     zz.goto(-200,-300)
     zz.pd()
@@ -143,7 +143,10 @@ def make_star ():
             zz.left(45)
             zz.left(120)
     zz.end_fill()
-    zz.write("Forward we go Forever!!!!!!")
+    zz.pensize(10)
+    zz.pu()
+    zz.goto(-200,-100)
+    zz.write("A new House for us ")
 
 
 
@@ -173,6 +176,7 @@ def main():
     window()
     make_window()
     make_star()
+
 
 
     wn.exitonclick()
