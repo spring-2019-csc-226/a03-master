@@ -16,16 +16,19 @@ import turtle
 
 wn = turtle.Screen()
 wn.colormode(255)
+# the above mode makes me able to use RGB colors in the window
 wn.bgcolor((238, 130, 238))
 lb = turtle.Turtle()
 lb.color("green")
 lb.pensize(10)
 zz = turtle.Turtle()
 zz.color("yellow")
+zz.speed(6)
+lb.speed(6)
 
 
-def make_the_front ():
-    """this function makes the front part of the house which is basically a rectangle"""
+def make_the_front():
+    """this function makes the front part of the house which look like a rectangle"""
     lb.pu()
     lb.goto(-100, -100)
     lb.pd()
@@ -41,7 +44,7 @@ def make_the_front ():
 
 
 def make_the_right_side():
-    """This function makes the right side of the 3 dimensional house"""
+    """"This function makes the right hand side of the house"""
     lb.pu()
     lb.goto(290, -100)
     lb.left(43)
@@ -56,12 +59,12 @@ def make_the_right_side():
 
 
 def make_roof():
-    """This function makes the roof of the house and paint it red"""
+    """this function makes the roof """
     lb.filling()
     lb.begin_fill()
     lb.fillcolor("red")
     lb.penup()
-    lb.goto(-100,100)
+    lb.goto(-100, 100)
     lb.pd()
     lb.right(-230)
     lb.forward(150)
@@ -85,12 +88,11 @@ def make_roof():
 
 
 def door():
-    """"this function makes a door for the house"""
     lb.penup()
     lb.goto(60,-100)
     lb.pd()
     lb.rt(110)
-    for i in range (1):
+    for i in range(1):
         lb.filling()
         lb.begin_fill()
         lb.fillcolor("purple")
@@ -102,13 +104,14 @@ def door():
         lb.end_fill()
 
 def window ():
+    """this function makes the roof"""
     lb.filling()
     lb.fillcolor('red')
     lb.begin_fill()
     lb.pu()
     lb.goto(150,20)
     lb.pd()
-    for i in range (4):
+    for i in range(4):
         lb.forward(70)
         lb.left(90)
     lb.end_fill()
@@ -116,7 +119,8 @@ def window ():
 
 
 def make_window():
-    """this function makes a window at the LHS"""
+    """This function makes the window"""
+
     lb.filling()
     lb.fillcolor('red')
     lb.begin_fill()
@@ -130,28 +134,29 @@ def make_window():
 
 
 def make_star ():
-    """This function makes a beautiful star at the front of the house and write that the house belongs to us all"""
-    zz.speed(6)
+
+    zz.speed(0)
     zz.pu()
     zz.goto(-200,-300)
     zz.pd()
     zz.filling()
     zz.fillcolor('red')
     zz.begin_fill()
-    for i in range (4):
-        for i in range(10):
+    for i in range(4):
+        for j in range(10):
             zz.forward(200)
             zz.left(45)
             zz.left(120)
     zz.end_fill()
     zz.pensize(10)
     zz.pu()
-    zz.goto(-200,-100)
-    zz.write("A new House for us ")
+    zz.goto(-500, 100)
+    zz.color("blue")
+    zz.write("A new House for us ", font=("Arial", 22, "normal"))
 
 
 def main():
-    """This function calls all the made function to build  the house"""
+    """This function calls all the parts to build a house"""
     make_the_front()
     make_the_right_side()
     make_roof()
@@ -159,9 +164,7 @@ def main():
     window()
     make_window()
     make_star()
-
-
-wn.exitonclick()
+    wn.exitonclick()
 
 
 main()
