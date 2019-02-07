@@ -149,25 +149,6 @@ def make_star ():
     zz.write("A new House for us ")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def main():
     make_the_front()
     make_the_right_side()
@@ -178,9 +159,7 @@ def main():
     make_star()
 
 
-
-    wn.exitonclick()
-
+wn.exitonclick()
 
 
 main()
