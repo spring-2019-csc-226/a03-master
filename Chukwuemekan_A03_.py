@@ -1,7 +1,7 @@
 ######################################################################
-# Author: Emily Lovell & Scott Heggen        TODO: Change this to your name, if modifying
+# Author: Emily Lovell & Scott Heggen        TODO: Nmasichi
 # Username: lovelle & heggens                TODO: Change this to your username, if modifying
-#
+#https://docs.google.com/document/d/1TpHnRgpfi085_tPxOtOKuGIDU7i2N_kQTPCIsDGcuMw/edit?usp=sharing
 
 # Assignment: A02: Loopy Turtles, Loopy Languages
 # Purpose: Draws a 3D cube using turtles and nested for loops
