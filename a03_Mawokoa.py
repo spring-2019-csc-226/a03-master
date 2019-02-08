@@ -4,7 +4,7 @@
 # https://docs.google.com/document/d/1SC0esWpwq11zESIwYr2GcdQgfGtLxcauwL_QA2vA3Gg/edit?usp=sharing
 #
 # Assignment: A3: Assignment: A3: A Pair of Fully Functional
-#                  Gitty Psychedelic Robotic Turtles
+#                  Gitty Psychedelic Robotic Turtles!!
 # Credits:
 
 import turtle
@@ -29,7 +29,7 @@ def draw_evilshroom():
         shroom.forward(60)
         shroom.left(90)
     shroom.end_fill()
-    shroom.pencolor("red")                          # Draws the trunk of the mushroom using loops.
+    shroom.pencolor("red")                          # Draws the trunk of the mushroom using a loop.
     shroom.penup()
     shroom.goto(-200, -120)
     shroom.pendown()
