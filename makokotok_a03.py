@@ -3,7 +3,7 @@
 #Username: makotokok
 #Homework: A03- A Pair of Fully Functional Gitty Psychedelic Robotic Turtles
 #Purpose: Practice creating and using Functions, use turtle library more and learn more about source control and git.
-
+#google doc: https://docs.google.com/document/d/1JbUKMH5KvOvN72uv8sIBT4AZqn7liRogao8ymomGzrA/edit?usp=sharing
 #######################################################################################################
 
 import turtle                                  # allows us to use the turtles libray
