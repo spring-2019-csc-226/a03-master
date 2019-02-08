@@ -4,11 +4,13 @@ import turtle
 
 
 def make_circle(smiley):
+    """This function creates the outer circle"""
     smiley.setpos(0,-200)
     smiley.circle(200)
 
 
 def make_other_lines(smiley):
+    """This function draws the peace sign"""
     smiley.left(90)
     smiley.forward(400)
     smiley.backward(200)
