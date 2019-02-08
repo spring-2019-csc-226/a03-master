@@ -1,7 +1,7 @@
 #################################################################################
 # Authors: Azariah Mawoko
 # Usernames: mawokoa
-#
+# https://docs.google.com/document/d/1SC0esWpwq11zESIwYr2GcdQgfGtLxcauwL_QA2vA3Gg/edit?usp=sharing
 #
 # Assignment: A3: Assignment: A3: A Pair of Fully Functional
 #                  Gitty Psychedelic Robotic Turtles
