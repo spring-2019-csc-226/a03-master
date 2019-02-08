@@ -1,4 +1,5 @@
 # William Miller
+# google doc: https://docs.google.com/document/d/1oCmkFmXKiNwrCovisisTkf_3qdvQ6QJMvHSO_5YftwM/edit#
 import turtle
 
 
