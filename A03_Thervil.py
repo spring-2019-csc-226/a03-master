@@ -48,6 +48,7 @@ def function_3():
     jess.setpos(100, -250)
     jess.pendown()
     for j in range(4):
+        pass
 
 
 def main():
