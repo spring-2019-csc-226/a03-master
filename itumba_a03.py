@@ -1,7 +1,7 @@
 ######################################################################
 # Author: Nicole Itumba
 # Username: Itumban_A03
-GoogleDoc: https://docs.google.com/document/d/15V7Bk_zvKYsn6cmAq_iV8ZQVYu4eXKbd3beAlwDjre4/edit?usp=sharing
+#GoogleDoc: https://docs.google.com/document/d/15V7Bk_zvKYsn6cmAq_iV8ZQVYu4eXKbd3beAlwDjre4/edit?usp=sharing
 #
 # Assignment: T03: Boustrophedon Turtles and Functions
 # Purpose: To very simply demonstrate the turtle library to demo shapes and using images for shapes
