@@ -1,4 +1,11 @@
-import turtle
+#################################################################################
+# Author: Wilkensley Thervil
+# Username: Wilkensley
+#
+# Assignment: A03: https://docs.google.com/document/d/1udKfPXWjc56TSu-2bG3ixT7X8meiO6lJ4gh6ltglXp8/edit#
+# Purpose: Learning how to define and call functions.
+#################################################################################
+import turtle                               #import turtle from library
 wn = turtle.Screen()
 wn.bgcolor("black")
 
@@ -9,8 +16,9 @@ willy.setpos(0, 0)
 
 jess = turtle
 
+
 def function_1():
-    """ creates shape
+    """ creates tree top
         :param : turtle object"""
     willy.color('green')
     willy.begin_fill()
@@ -20,8 +28,10 @@ def function_1():
     willy.end_fill()
     willy.hideturtle()
 
+
 jess.setpos (-145, -65)
 jess.pendown()
+
 
 def function_2():
     """creates tree log
@@ -38,7 +48,7 @@ def function_2():
 
 
 def function_3():
-    """creates house
+    """creates house body
     :param : turtle object"""
     jess.color("blue")
     jess.pensize(5)
@@ -49,8 +59,9 @@ def function_3():
         jess.forward(150)
         jess.left(90)
 
+
 def function_4():
-    """creates house
+    """creates house top
     :param : turtle object"""
     jess.color("red")
     jess.pensize(5)
@@ -63,6 +74,7 @@ def function_4():
         jess.forward(90)
         jess.left(70)
         jess.forward(90)
+
 
 def function_5():
     """ creates star
@@ -79,7 +91,8 @@ def function_5():
     willy.end_fill()
     willy.hideturtle()
 
-def main():
+
+def main():                                 #calls fuctions within main
     function_1()
     function_2()
     function_3()
@@ -87,7 +100,6 @@ def main():
     function_5()
 
     wn.exitonclick()
-#coment coment
-# Turtle
+
 
 main()                          # calls the main function
