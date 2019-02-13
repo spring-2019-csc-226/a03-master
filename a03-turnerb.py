@@ -84,7 +84,7 @@ t.speed(0)
 
 
 def main():
-    # main method, lets us 
+    # main method, lets us run all the methods at once
     drawfib(t)
     drawcir(t)
     turtle.done()
