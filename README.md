@@ -1,4 +1,4 @@
-# CSC226C 
+ CSC226C 
 
 ### Assignment A03
 
