@@ -44,7 +44,7 @@ def rec_fib(n):
         return rec_fib(n-1) + rec_fib(n-2)
 
 
-# generate a fib sequence with a length of 30
+# generate a fib sequence with random length, between 10 and 20.
 fib_seq = ([rec_fib(i) for i in range(randint(10, 20))])
 # length of the generated fib sequence
 num = len(fib_seq)
