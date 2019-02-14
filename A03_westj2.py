@@ -3,6 +3,7 @@
 # Username: westj2
 #
 # Assignment: A03
+# Doc:https://docs.google.com/document/d/1iQCxEhiEbdHSGWJ16A9AC4E5ViTDvvYHfBGZpW7KiEQ/edit?usp=sharing
 ######################################################################
 import turtle
 
