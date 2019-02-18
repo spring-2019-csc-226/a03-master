@@ -12,7 +12,7 @@ dave = turtle.Turtle()
 wn.colormode(255)
 dave.pencolor(31, 40, 132) #sets custom color for the pen
 
-dave.speed(0)
+dave.speed(10)
 def head():
     """Drawing head"""
     dave.penup()
