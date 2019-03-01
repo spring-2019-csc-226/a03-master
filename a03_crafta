@@ -1,0 +1,151 @@
+#################################################################################
+# Author: Audrey Craft
+# Username: crafta
+#
+# Assignment: A03: A Pair of Fully Functional Gitty Psychedelic Robotic Turtles
+# Purpose:
+#################################################################################
+# Acknowledgements:
+#
+#   TA Emely for getting started with the project
+#
+#################################################################################
+
+import turtle
+
+
+def draw_house_base():
+    """
+    Draws the base of the house
+    :return:
+    """
+
+    house_base = turtle.Turtle()
+    house_base.color('red')
+    house_base.pensize(5)
+    house_base.hideturtle()
+    house_base.speed(5)
+
+    house_base.penup()
+    house_base.setpos(-40, -80)
+    house_base.pendown()
+
+    house_base.begin_fill()
+
+    for i in range(4):
+        house_base.forward(150)
+        house_base.left(90)
+
+    house_base.end_fill()
+
+
+def draw_house_door():
+    """
+    Draws the house's door
+    :return:
+    """
+
+    house_door = turtle.Turtle()
+    house_door.color('DeepPink')
+    house_door.pensize(5)
+    house_door.hideturtle()
+    house_door.speed(5)
+
+    house_door.penup()
+    house_door.setpos(-6, -80)
+    house_door.pendown()
+
+    house_door.begin_fill()
+
+    for i in range(2):
+        house_door.forward(25)
+        house_door.left(90)
+        house_door.forward(50)
+        house_door.left(90)
+
+    house_door.end_fill()
+
+
+def draw_roof():
+    """
+    Draws the house's roof
+    :return:
+    """
+
+    house_roof = turtle.Turtle()
+    house_roof.color('purple1')
+    house_roof.pensize(5)
+    house_roof.hideturtle()
+    house_roof.speed(5)
+
+    house_roof.penup()
+    house_roof.setpos(-41, 74)
+    house_roof.pendown()
+
+    house_roof.begin_fill()
+
+    for i in range(3):
+        house_roof.forward(150)
+        house_roof.left(120)
+
+    house_roof.end_fill()
+
+
+def draw_tree():
+    """
+    Draws a tree
+    :return:
+    """
+
+    tree_base = turtle.Turtle()
+    tree_base.color("brown")
+    tree_base.pensize(5)
+    tree_base.hideturtle()
+    tree_base.speed(5)
+
+    tree_base.penup()
+    tree_base.setpos(-150, -80)
+    tree_base.pendown()
+
+    tree_base.begin_fill()
+
+    for i in range(2):
+        tree_base.forward(40)
+        tree_base.left(90)
+        tree_base.forward(110)
+        tree_base.left(90)
+
+    tree_base.end_fill()
+
+    tree_top = turtle.Turtle()
+    tree_top.color('DarkOliveGreen')
+    tree_top.shape("circle")
+    tree_top.shapesize(5)
+
+    tree_top.penup()
+    tree_top.setpos(-130, 50)
+    tree_top.stamp()
+
+
+def main():
+    """
+    draws the whole house
+    :return:
+    """
+
+    wn = turtle.Screen()
+    wn.bgcolor('PeachPuff')
+
+    draw_house_base()
+
+    draw_house_door()
+
+    draw_roof()
+
+    draw_tree()
+
+    wn.exitonclick()
+
+
+main()
+
